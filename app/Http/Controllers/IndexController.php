@@ -42,7 +42,7 @@ class IndexController extends Controller
         
         return "Your consumed caffeine level is " .
         $consumedCaffeine .
-        " You can consume " .
+        " mg, You can consume " .
         $moreDrinksThatCanBeConsumed .
         " more " .
         $selectedDrinkName .

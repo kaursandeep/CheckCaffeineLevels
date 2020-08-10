@@ -24,7 +24,9 @@ var buttonStyle = {
     textAlign: "center",
     whiteSpace: "nowrap",
     marginTop: "15px",
-    color: "#636b6f"
+    color: "#636b6f",
+    marginLeft: "36px",
+    display: "block"
 };
 
 var messageStyle = {
@@ -35,8 +37,7 @@ var messageStyle = {
 };
 
 var messageDiv = {
-    clear: "both",
-    width: "50%"
+    clear: "both"
 };
 const OPTIONS = [
     {
@@ -140,6 +141,10 @@ class Drinks extends Component {
             <div className="container">
                 <div className="row mt-5">
                     <div className="col-sm-12">
+                        <p>
+                            You want to have your favourite drink, select your
+                            drink and check the caffeine level you can take.
+                        </p>
                         <form onSubmit={this.handleFormSubmit}>
                             <div className="form-group mt-2">
                                 <ul>{this.createRadioButtons()}</ul>

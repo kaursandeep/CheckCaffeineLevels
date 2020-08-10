@@ -66639,7 +66639,7 @@ var inputStyle = _defineProperty({
   marginLeft: "38px"
 }, "width", "400px");
 
-var buttonStyle = {
+var buttonStyle = _defineProperty({
   padding: ".375rem .75rem",
   fontSize: "1rem",
   lineHeight: "1.5",
@@ -66649,8 +66649,10 @@ var buttonStyle = {
   textAlign: "center",
   whiteSpace: "nowrap",
   marginTop: "15px",
-  color: "#636b6f"
-};
+  color: "#636b6f",
+  marginLeft: "36px"
+}, "display", "block");
+
 var messageStyle = {
   display: "block",
   clear: "both",
@@ -66658,8 +66660,7 @@ var messageStyle = {
   fontSize: "22px"
 };
 var messageDiv = {
-  clear: "both",
-  width: "50%"
+  clear: "both"
 };
 var OPTIONS = [{
   name: "Monster Ultra Sunrise"
@@ -66761,7 +66762,7 @@ var Drinks = /*#__PURE__*/function (_Component) {
         className: "row mt-5"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-sm-12"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "You want to have your favourite drink, select your drink and check the caffeine level you can take."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
         onSubmit: this.handleFormSubmit
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group mt-2"
