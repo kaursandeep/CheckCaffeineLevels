@@ -66774,9 +66774,9 @@ var Drinks = /*#__PURE__*/function (_Component) {
         placeholder: "Enter number of consumed drinks",
         value: this.state.numberOfDrinksConsumed,
         onChange: this.handleChange,
-        required: true,
         min: "0",
-        style: inputStyle
+        style: inputStyle,
+        required: true
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "form-group mt-2",
         style: messageDiv

@@ -157,9 +157,9 @@ class Drinks extends Component {
                                     placeholder="Enter number of consumed drinks"
                                     value={this.state.numberOfDrinksConsumed}
                                     onChange={this.handleChange}
-                                    required
                                     min="0"
                                     style={inputStyle}
+                                    required
                                 />
                             </div>
 

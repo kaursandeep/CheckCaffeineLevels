@@ -9,6 +9,11 @@ class IndexController extends Controller
 {
     function index(Request $request){
   
+        $validatedData = $request->validate([
+            'selectedDrink' => 'required','min:0',
+            'numberOfDrinksConsumed'=>'required'
+            ]);
+        //$var_dump($validatedData); exit;
         $data=$request->all();
 
         //get drink details from db
